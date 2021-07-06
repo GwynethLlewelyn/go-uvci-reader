@@ -65,27 +65,27 @@ func main() {
 
 	// Part of COSE header definition
 	type coseHeader struct {
-		Alg int    `cbor:"1,keyasint,omitempty"`	// Cryptographic algorithm used, ES256 or PS256
-		Kid []byte `cbor:"4,keyasint,omitempty"`	// Key Identifier (first 8 bytes of the hash value)
-//		IV  []byte `cbor:"5,keyasint,omitempty"`	// Initialisation Vector
+		Alg int    `cbor:"1,keyasint,omitempty"`	 // Cryptographic algorithm used, ES256 or PS256
+		Kid []byte `cbor:"4,keyasint,omitempty"`	 // Key Identifier (first 8 bytes of the hash value)
+		//		IV  []byte `cbor:"5,keyasint,omitempty"`	// Initialisation Vector
 	}
 
 	type commonPayloadValues struct {
-		Iss	[]byte	`cbor:"2,omitempty"`	// Issuer of the Digital COVID-19 Certificate (DGC)
-		Iat	[]byte	`cbor:"2,omitempty"`	// Issuing Date of the DGC
-		Exp	[]byte	`cbor:"2,omitempty"`	// Expiring Date of the DGC
-		Hcert []byte `cbor:"5,omitempty"`	// Payload of the DGC (Vac[cined], Tst[result], Rec[overed])
+		Iss	   []byte	 `cbor:"2,omitempty"`	 // Issuer of the Digital COVID-19 Certificate (DGC)
+		Iat	   []byte	 `cbor:"2,omitempty"`	 // Issuing Date of the DGC
+		Exp	   []byte	 `cbor:"2,omitempty"`	 // Expiring Date of the DGC
+		Hcert []byte `cbor:"5,omitempty"`	 // Payload of the DGC (Vac[cined], Tst[result], Rec[overed])
 	}
 
 	// Signed CWT is defined in RFC 8392
 	type signedCWT struct {
 		_           struct{} `cbor:",toarray"`
 		Protected   []byte
-		Unprotected coseHeader	`cbor:",toarray"`
+		Unprotected coseHeader	 `cbor:",toarray"`
 		// Protected   coseHeader	`cbor:",toarray"`
 		// Payload     commonPayloadValues	`cbor:",toarray"`
-		Payload		[]byte
-		Signature   []byte
+		Payload	   []byte
+		Signature  []byte
 		// Unprotected coseHeader	`cbor:",omitempty"`	// Digital COVID-19 Certificates do not have unprotected data as per specs
 	}
 
