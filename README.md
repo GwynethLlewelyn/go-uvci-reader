@@ -8,10 +8,12 @@ A simple tool to validate EU Digital COVID-19 Certificates
 1. Clone
 2. Compile with `go build`/`go install`
 3. Scan the QR code on the EU Digital COVID-19 Certificate, save the scan as ASCII
-4. `echo 'the long, random string of garbage from the QR scan' > ./go-uvci-reader`
+4. `echo 'the long, random string of garbage from the QR scan' | ./go-uvci-reader`
 5. Confirm that the result contains your personal data (as printed in plaintext on the EU Digital COVID-19 Certificate) and that the signature _is_ valid.
 
-That's it. No options, no CLI commands, no config files. It just does one thing. Not necessarily well.
+That's it. No options, no CLI commands, no config files. It reads a string of characters from standard input and tries to decode it according to the published documentation for EU Digital COVID-19 Certificate, and print the plaintaext to standard output, (hopefully) formatted.
+
+It just does one thing. Not necessarily well.
 
 ## Bugs
 
