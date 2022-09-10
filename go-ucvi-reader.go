@@ -15,7 +15,7 @@ import (
 )
 
 func main() {
-	var encodedGarbage string = ""
+	var encodedGarbage string
 
 	// file, err := os.Open(os.Stdin)
 	// if err != nil {
