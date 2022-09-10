@@ -1,6 +1,6 @@
-github.com/dasio/base45 v1.0.0 h1:4WfP/GawFAmz1Lf7pPcjkVr1LIg+9L7fLtj+8KMwCA8=
-github.com/dasio/base45 v1.0.0/go.mod h1:gbUNSAihO0oovi9UKFmTky7aoLj6mozQqpcgsoMoN0s=
-github.com/fxamacker/cbor/v2 v2.3.0 h1:aM45YGMctNakddNNAezPxDUpv38j44Abh+hifNuqXik=
-github.com/fxamacker/cbor/v2 v2.3.0/go.mod h1:TA1xS00nchWmaBnEIxPSE5oHLuJBAVvqrtAnWBwBCVo=
+github.com/dasio/base45 v1.0.1 h1:obY5mHQsviF4ubXCoVH3HBVhedgj/K7EATwDUmxKxe8=
+github.com/dasio/base45 v1.0.1/go.mod h1:gbUNSAihO0oovi9UKFmTky7aoLj6mozQqpcgsoMoN0s=
+github.com/fxamacker/cbor/v2 v2.4.0 h1:ri0ArlOR+5XunOP8CRUowT0pSJOwhW098ZCUyskZD88=
+github.com/fxamacker/cbor/v2 v2.4.0/go.mod h1:TA1xS00nchWmaBnEIxPSE5oHLuJBAVvqrtAnWBwBCVo=
 github.com/x448/float16 v0.8.4 h1:qLwI1I70+NjRFUR3zs1JPUCgaCXSh3SW62uAKT1mSBM=
 github.com/x448/float16 v0.8.4/go.mod h1:14CWIYCyZA/cWjXOioeEpHeN/83MdbZDRQHoFcYsOfg=
