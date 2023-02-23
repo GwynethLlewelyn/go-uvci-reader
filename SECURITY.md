@@ -2,12 +2,10 @@
 
 ## Supported Versions
 
-All! (in theory)
+Sorry, just the latest one; I have no time to provide fixes for everything!
 
 ## Reporting a Vulnerability
 
-Please don't just add a PR; give me a chance of reviewing the vulnerability first...
+Please send me a message, preferably over encrypted mail, to [gwyneth.llewelyn@gwynethllewelyn.net](mailto:gwyneth.llewelyn@gwynethllewelyn.net); you can get my PGP key from https://keybase.io/gwynethllewelyn (where you can also find other forms of contacting me).
 
-Send me the relevant data (general info about what the vulnerability is and how it may be fixed; diffs; links to sites describing the vulnerability, etc.) to [✉️ gwyneth@gwynethllewelyn.net](mailto:gwyneth@gwynethllewelyn.net).
-
-If you wish, you can send me that email encrypted with PGP, my fingerprint can be retrieved at <https://keybase.io/gwynethllewelyn>
+On a hurry, the _fastest_ and _most secure way_ to get in touch with me is, of course, through that very same Keybase account, where I'm _always_ logged in (as opposed to other forms of communication). But encrypted email is also fine.
